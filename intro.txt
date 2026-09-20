@@ -1,2 +1,27 @@
 Hey!
 First time creating something new!
+
+<div class="player">
+    <img src="images/cover.jpg" class="cover">
+    <h2>Now Playing </h2>
+    <h3 id="title">Song Title</h3>
+    <p id="arist">Artist Name</p>
+
+    <audio id="audio"></audio>
+
+    <div class="controls">
+        <button id="prev"> </button>
+        <button id="play"> </button>
+        <button id="next"> </button>
+    </div>
+
+    <div class="progress">
+        <input type="range" id="progress" value="0">
+    </div>
+
+    <div class="volume">
+        <i class="vol-icon"> </i>
+           <input type="range" id="volume"
+             min="0" max="1" step="0.01" value="1">
+    </div>
+</div>
