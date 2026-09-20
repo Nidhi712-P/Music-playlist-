@@ -1,6 +1,3 @@
-Hey!
-First time creating something new!
-
 <div class="player">
     <img src="images/cover.jpg" class="cover">
     <h2>Now Playing </h2>
